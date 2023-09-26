@@ -31,3 +31,5 @@ Only one image/item per layer should be selectable and a visual cue should highl
 
 ### Screenshots:  
 
+![Kitchen design page](./public/img/screenshot.png)
+![Downloaded image of a design](./public/img/my_kitchen_design.png)
