@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/styles/styles.css" />
+    <link rel="icon" href="./public/img/favicon.ico" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="nav">
+      <div class="container">
+        <div class="logo">
+          <a href="/" class="">
+            <img src="./public/img/logo.svg" alt="logo" width="150"
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Main Container -->
+
+    <div id="container">
+      <div class="header_wrapper">
+        <h1 class="header">Design Your Own Kitchen</h1>
+      <button id="download"><img src="./public/img/download-solid.svg"></button>
+      </div>
+      
+      <div class="content_container" id="capture">
+        <div class="img_container">
+          <div id="layerMenu"></div>
+        </div>
+        <div class="select_container">
+          <div class="kitchen">
+            <h4>Kitchen</h4>
+            <div id="kitchenMenu"></div>
+          </div>
+          <div class="floor">
+            <h4>Floor</h4>
+            <div id="floorMenu"></div>
+          </div>
+          <div class="wall">
+            <h4>Wall</h4>
+            <div id="wallMenu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+   
+    <script src="./app.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  </body>
+</html>
